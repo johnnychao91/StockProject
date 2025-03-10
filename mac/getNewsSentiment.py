@@ -26,11 +26,12 @@ service = Service(driver_path)
 driver = webdriver.Chrome(service=service, options=options)
 
 # 設定新聞類別
-category = "nasdaq"
+#category = "nasdaq"
+category = "nvidia"
 
 # 設定新聞資料夾 & 儲存資料夾
-news_dir = f"./data/google_news/{category}/"
-output_dir = f"./data/google_news_sentiment/{category}/"
+news_dir = f"../data/google_news/{category}/"
+output_dir = f"../data/google_news_sentiment/{category}/"
 os.makedirs(output_dir, exist_ok=True)  # 確保輸出資料夾存在
 
 # 設定開始 & 結束日期
