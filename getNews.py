@@ -4,10 +4,11 @@ import os
 from datetime import datetime, timedelta
 
 # 搜索關鍵字
-query = "nvidia"
+#query = "nvidia"
 #query = "tsmc"
 #query = "nasdaq"
 #query = "trump"
+query = "gpu"
 
 
 # 設定查詢時間範圍
