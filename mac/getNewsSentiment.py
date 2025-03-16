@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from textblob import TextBlob
@@ -17,8 +18,8 @@ from tqdm import tqdm  # 進度條
 # 設定 Selenium WebDriver
 driver_path = "./mac/chromedriver"  # 修改為你的 chromedriver 路徑
 options = Options()
-options.add_argument("--headless")  # 無頭模式
-options.add_argument("--disable-gpu")
+#options.add_argument("--headless")  # 無頭模式
+options.add_argument("--enable-gpu")
 options.add_argument("--window-size=1920,1080")
 options.add_argument("--log-level=3")
 
@@ -60,7 +61,12 @@ def get_source_url(rss_url):
                 print("無法找到接受 Cookies 按鈕")
 
         # 等待跳轉至真實新聞頁面
-        wait.until(lambda d: not d.current_url.startswith("https://news.google.com/"))
+        try:
+            wait.until(lambda d: not d.current_url.startswith("https://news.google.com/"))
+        except TimeoutException:
+            print("超時！未能從 Google News 跳轉到真實新聞網址")
+            return None  # 避免錯誤，返回 None 
+        
         return driver.current_url
 
     except Exception as e:
@@ -163,7 +169,7 @@ while current_date <= end_date:
         ])
 
         # 防止 IP 被封鎖，間隔 3~6 秒
-        time.sleep(random.uniform(3, 6))
+        #time.sleep(random.uniform(3, 6))
 
     # 檢查是否有可儲存的數據
     if processed_data:
