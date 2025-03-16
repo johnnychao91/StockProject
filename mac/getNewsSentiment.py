@@ -15,7 +15,7 @@ from textblob import TextBlob
 from tqdm import tqdm  # 進度條
 
 # 設定 Selenium WebDriver
-driver_path = "./chromedriver.exe"  # 修改為你的 chromedriver 路徑
+driver_path = "./mac/chromedriver"  # 修改為你的 chromedriver 路徑
 options = Options()
 options.add_argument("--headless")  # 無頭模式
 options.add_argument("--disable-gpu")
@@ -30,8 +30,8 @@ driver = webdriver.Chrome(service=service, options=options)
 category = "nvidia"
 
 # 設定新聞資料夾 & 儲存資料夾
-news_dir = f"../data/google_news/{category}/"
-output_dir = f"../data/google_news_sentiment/{category}/"
+news_dir = f"./data/google_news/{category}/"
+output_dir = f"./data/google_news_sentiment/{category}/"
 os.makedirs(output_dir, exist_ok=True)  # 確保輸出資料夾存在
 
 # 設定開始 & 結束日期
