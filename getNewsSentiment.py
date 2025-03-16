@@ -20,9 +20,8 @@ driver_path = "./chromedriver.exe"  # 修改為你的 chromedriver 路徑
 options = Options()
 #options.add_argument("--headless")  # 無頭模式
 options.add_argument("--enable-gpu")
-options.add_argument("--window-size=1920,1080")
 options.add_argument("--log-level=3")
-options.add_argument("--window-size=400,300")
+options.add_argument("--window-size=1280,720")
 
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service, options=options)
