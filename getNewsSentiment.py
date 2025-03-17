@@ -11,20 +11,30 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
+from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from textblob import TextBlob
 from tqdm import tqdm  # 進度條
+
+CHROME="C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 # 設定 Selenium WebDriver
 driver_path = "./chromedriver.exe"  # 修改為你的 chromedriver 路徑
 options = Options()
 #options.add_argument("--headless")  # 無頭模式
 options.add_argument("--enable-gpu")
-options.add_argument("--log-level=3")
+options.add_argument("--log-level=0")
 options.add_argument("--window-size=1280,720")
-
+options.add_argument("--ignore-certificate-errors")
+options.add_argument("--disable-usb")
+options.add_experimental_option("excludeSwitches", ["enable-logging"])
+#options.page_load_strategy = "eager"
+options.page_load_strategy = "none"
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service, options=options)
+driver.execute_cdp_cmd("Page.setLifecycleEventsEnabled", {"enabled": True})
+
+driver.set_page_load_timeout(10)
 
 # 設定新聞類別
 category = "nasdaq"
@@ -47,9 +57,19 @@ headers = {
 # 取得新聞原始連結（透過 Selenium）
 def get_source_url(rss_url):
     try:
-        driver.get(rss_url)
-        wait = WebDriverWait(driver, 5)
+        #driver.get(rss_url)
+        try:
+            print(f"driver.get開始")
+            driver.get(rss_url)
+            print(f"driver.get完成")
+        except TimeoutException:
+            driver.execute_script("window.stop();")
+            
+        print(f"driver.get完成.")
+        
+        #wait = WebDriverWait(driver, timeout=30, poll_frequency=1)
 
+        """
         # 檢查是否需要接受 Cookie
         if driver.current_url.startswith("https://consent.google.com/"):
             try:
@@ -58,14 +78,46 @@ def get_source_url(rss_url):
                 print("已接受 Cookies")
             except:
                 print("無法找到接受 Cookies 按鈕")
-
+        """
+        
         # 等待跳轉至真實新聞頁面
+        #wait.until(lambda d: not d.current_url.startswith("https://news.google.com/"))
+        """
         try:
             wait.until(lambda d: not d.current_url.startswith("https://news.google.com/"))
         except TimeoutException:
             print("超時！未能從 Google News 跳轉到真實新聞網址")
-            return None  # 避免錯誤，返回 None   
-             
+            return None
+        """
+        
+        print("time.sleep(10)開始")
+        time.sleep(10)
+        print("time.sleep(10)完成")
+        
+        wait_for_page_load(driver)
+        
+        start_time = time.time()  # 記錄開始時間
+        print(f"記錄開始時間: {start_time}")
+        
+        while time.time() - start_time < 120:
+            print(f"get current_url")
+            try:
+                current_url = driver.current_url  # 取得當前網址
+            except:
+                continue
+            print(f"current_url got")
+            print(f"等待跳轉至真實新聞頁面: {current_url} ... {time.time() - start_time:.2f}")
+            if not current_url.startswith("https://news.google.com/"):
+                print(f"成功跳轉至: {current_url}")
+                break  # 跳出迴圈
+            time.sleep(0.5)  # ✅ 每 0.5 秒檢查一次
+            #print(f"等待跳轉至真實新聞頁面: {current_url} ... {time.time() - start_time:.2f}")
+
+        # 如果超時仍然沒跳轉
+        if current_url.startswith("https://news.google.com/"):
+            print("超時！未能從 Google News 跳轉到真實新聞網址")
+            return None  # 設定為 None
+            
         return driver.current_url
 
     except Exception as e:
@@ -107,6 +159,27 @@ def analyze_sentiment(text):
     analysis = TextBlob(text)
     return analysis.sentiment.polarity, analysis.sentiment.subjectivity
 
+def wait_for_page_load(driver, timeout=120):
+    """等待網頁完全載入 (`document.readyState == 'complete'`)，並顯示動畫"""
+    start_time = time.time()
+    dot_count = 0  # 用來控制 `.` 數量的變化
+    while time.time() - start_time < timeout:
+        time.sleep(0.5)  # 每 0.5 秒檢查一次
+        page_state = driver.execute_script("return document.readyState;")
+
+        # 產生動態的 `.` 數量（空格 → 1 → 2 → 3 → 空格 → 1 → 2 → 3）
+        dot_count = (dot_count + 1) % 4  # 0, 1, 2, 3 循環
+        dots = "." * dot_count + " " * (3 - dot_count)  # 空格填充，保持對齊
+
+        print(f"\r等待頁面載入中{dots} ({page_state})", end="", flush=True)  # \r 讓字串覆蓋上一行
+        #if page_state == "complete":
+        if page_state == "interactive" or page_state == "complete":
+            print("\n頁面載入完成")
+            return True
+    print("\n頁面載入超時")
+    return False
+
+
 # 逐日處理新聞
 current_date = start_date
 while current_date <= end_date:
@@ -146,6 +219,7 @@ while current_date <= end_date:
         link = row["連結"]
         title = row["標題"]
 
+        print(f"處理新聞: {link}")
         # 取得原始新聞連結
         source_url = get_source_url(link)
         if not source_url:
@@ -167,8 +241,9 @@ while current_date <= end_date:
             title, source_url, title_polarity, title_subjectivity, text_polarity, text_subjectivity
         ])
 
-        # 防止 IP 被封鎖，間隔 3~6 秒
-        #time.sleep(random.uniform(3, 6))
+        # 防止 IP 被封鎖
+        #time.sleep(3)
+        wait_for_page_load(driver)
 
     # 檢查是否有可儲存的數據
     if processed_data:
