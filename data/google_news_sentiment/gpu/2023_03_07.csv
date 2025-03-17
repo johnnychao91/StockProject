@@ -1,0 +1,25 @@
+﻿標題,真實新聞連結,標題_情感極性,標題_主觀性,全文_情感極性,全文_主觀性
+Ready for Its Closeup: NVIDIA Powers 15 Years of Oscar-Worthy Visual Effects - NVIDIA Blog,https://blogs.nvidia.com/blog/oscar-visual-effects/,0.1,0.25,0.16553432793102218,0.4061482594540444
+Nvidia CEO Jensen Huang's big bet on A.I. is paying off as his core technology powers ChatGPT - CNBC,https://www.cnbc.com/2023/03/07/nvidia-grew-from-gaming-to-ai-giant-and-now-powering-chatgpt.html,0.0,0.1,0.1227065551703648,0.4643545096092888
+The 6 Best Tools to Stress Test Your GPU on Windows - MUO - MakeUseOf,https://www.makeuseof.com/best-gpu-stress-test-tools-windows/,1.0,0.3,0.20889473553266652,0.5152201821167337
+"If you have an Nvidia graphics card, your CPU may be suffering right now - Digital Trends",https://www.digitaltrends.com/computing/nvidia-driver-bug-affects-cpu-usage/,0.14285714285714285,0.26785714285714285,0.08812663673774786,0.5125643389532276
+Intel Panther Lake Gets Ready To Roar With Third-Gen Xe3 Celestial GPU Architecture - Hot Hardware,https://hothardware.com/news/intel-panther-lake-xe3-gpu-leak,0.225,0.675,0.18329331046312167,0.5268267581475128
+NVIDIA GPUs Used To Create Academy Award Nominated Movies Including Avatar 2 & The Batman - Wccftech,https://wccftech.com/nvidia-gpus-used-to-create-academy-award-nominated-movies-including-avatar-2-the-batman/,0.0,0.0,0.1353633105246009,0.39165223665223664
+ASUS TUF Gaming GeForce RTX 4070 Ti OC Edition GPU Review - CGMagazine,https://www.cgmagonline.com/review/hardware/asus-tuf-rtx-4070-ti-gpu/,0.0,0.0,0.16901357871875758,0.5028549418708772
+Video super resolution in Microsoft Edge - Windows Blog,https://blogs.windows.com/msedgedev/2023/03/08/video-super-resolution-in-microsoft-edge/,0.3333333333333333,0.6666666666666666,0.14602759055290707,0.5110395775110965
+AMD fixes bug that freezes up Windows 11 PCs – but there's still bad news - TechRadar,https://www.techradar.com/news/amd-fixes-bug-that-freezes-up-windows-11-pcs-but-theres-still-bad-news,-0.6999999999999998,0.6666666666666666,0.10932473082473082,0.548354007104007
+PEAK:AIO provides HPC-level performance for AI with NAS simplicity and low cost - Blocks and Files,https://blocksandfiles.com/2023/03/07/peakaio-provides-hpc-level-performance-for-ai-with-trad-nas-simplicity-and-low-low-cost/,0.0,0.3,0.1339245247506117,0.438286718112805
+"How to Fix the ""Out of Video Memory"" Error in Hogwarts Legacy on Windows - MUO - MakeUseOf",https://www.makeuseof.com/out-of-video-memory-hogwarts-legacy-windows/,0.0,0.0,0.0480761316872428,0.4569282774838329
+Nvidia releases fix for GeForce driver causing CPU spikes - PCWorld,https://www.pcworld.com/article/1532492/nvidia-confirms-latest-gpu-driver-is-causing-cpu-spikes.html,0.0,0.0,0.1778845598845599,0.5181808561808562
+Microsoft Edge can now use AMD and NVIDIA GPUs to upscale web videos - Engadget,https://www.engadget.com/microsoft-edge-can-now-use-amd-and-nvidia-gpus-to-upscale-web-videos-202557842.html,0.0,0.0,0.08055555555555556,0.5083333333333333
+Towards a fourth RTX 3060 in GA104 and GDDR6X? - Overclocking.com,https://en.overclocking.com/towards-a-fourth-rtx-3060-in-ga104-and-gddr6x/,0.0,0.0,0.07013257575757575,0.46794191919191913
+Dota 2 gets a tech update in 7.32e - Esports.gg,https://esports.gg/news/dota-2/dota-2-gets-a-tech-update-in-7-32e/,0.0,0.0,0.11710501238803125,0.45689441585668
+Review: Asus ProArt Studiobook 16 OLED laptop - CG Channel,https://www.cgchannel.com/2023/03/review-asus-proart-studiobook-16-oled-laptop/,0.0,0.0,0.1454223493642508,0.45224098299978577
+"AMD Radeon RX 7900 XTX review: ""Welcome to the red team"" - Gamesradar",https://www.gamesradar.com/amd-radeon-rx-7900-xtx-review/,0.4,0.45,0.25883911639658763,0.5311108761396124
+Nvidia Graphics Card Could Be Killing Your CPU - ChannelNews,https://www.channelnews.com.au/nvidia-graphics-card-could-be-killing-your-cpu/,0.0,0.0,0.0657777777777778,0.49822222222222234
+"Enactment of ATI Law, a testament to political commitment of President Barrow - Voice Gambia Newspaper",https://www.voicegambia.com/2023/03/08/enactment-of-ati-law-a-testament-to-political-commitment-of-president-barrow/,0.0,0.1,0.14312464265294464,0.46523727844482526
+NVIDIA Driver Bug Causes Increased CPU Usage - Pokde.Net,https://pokde.net/system/pc/gpu/nvidia-driver-bug-causes-increased-usage,0.0,0.0,0.12799422799422802,0.41546588332302603
+ASUS Strix RTX 2080 8G Gaming Graphics Card Review - Tech4Gamers,https://tech4gamers.com/asus-strix-rtx-2080-8g-gaming-graphics-card-review/,0.0,0.0,0.13556572210032033,0.46478072274947274
+How to get The Last of Us Part 1 for free with select AMD GPUs - Dexerto,https://www.dexerto.com/tech/the-last-of-us-part-1-free-amd-gpus-2079699/,0.2,0.43333333333333335,0.03521443246019518,0.42314244136278034
+Best case for RTX 4070 Ti - WePC - PC Tech & PC Gaming News,https://www.wepc.com/gpu/faq/best-case-for-4070-ti/,1.0,0.3,0.27478279060310323,0.44177273864774064
+"Apple Mac mini 2023 w/ up to M2 Pro chip arrives in PH, starts at PHP 36,990! - GIZGUIDE",https://www.gizguide.com/2023/03/mac-mini-2023-ph-price-specs.html,0.0,0.0,0.26534090909090907,0.4553030303030303
