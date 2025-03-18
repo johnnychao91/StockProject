@@ -33,8 +33,8 @@ driver.execute_cdp_cmd("Page.setLifecycleEventsEnabled", {"enabled": True})
 
 driver.set_page_load_timeout(10)
 # 設定新聞類別
-#category = "nasdaq"
-category = "nvidia"
+category = "nasdaq"
+#category = "nvidia"
 
 # 設定新聞資料夾 & 儲存資料夾
 news_dir = f"./data/google_news/{category}/"
@@ -86,6 +86,10 @@ def get_source_url(rss_url):
             print("超時！未能從 Google News 跳轉到真實新聞網址")
             return None
         """
+        print("time.sleep(2)開始")
+        time.sleep(2)
+        print("time.sleep(2)完成")
+        
         wait_for_page_load(driver)
         
         start_time = time.time()  # 記錄開始時間
