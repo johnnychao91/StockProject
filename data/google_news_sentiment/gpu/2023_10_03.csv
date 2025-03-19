@@ -1,0 +1,75 @@
+﻿標題,真實新聞連結,標題_情感極性,標題_主觀性,全文_情感極性,全文_主觀性
+How Researchers Use Nvidia’s GPUs to Simulate Qubits - IEEE Spectrum,https://spectrum.ieee.org/nvidia-qubit,0.0,0.0,0.10574810606060604,0.4110670995670996
+"Arm, Qualcomm warn GPU drivers are likely being exploited by hackers - The Record from Recorded Future News",https://therecord.media/arm-qualcomm-warn-gpu-drivers-exploited,0.0,0.5625,0.10312265512265512,0.38357287157287157
+NVIDIA To Introduce New GeForce RTX 3050 6 GB GPUs In 2024: 70W TGP With Cut-Down Specs & Lower Prices - Wccftech,https://wccftech.com/nvidia-new-geforce-rtx-3050-6-gb-gpu-in-2024-70w-tgp-cut-down-specs-lower-prices/,0.13636363636363635,0.45454545454545453,0.10994438051400084,0.4873513617184502
+"This Nvidia GPU Is Now the Most Used by Gamers, Reveals Steam Survey - Beebom",https://beebom.com/steam-survey-most-used-gpu/,0.5,0.5,0.1890482883129942,0.5040758261346496
+Is There a Place for CPUs in the GenAI World? - The Fast Mode,https://www.thefastmode.com/expert-opinion/33411-is-there-a-place-for-cpus-in-the-genai-world,0.2,0.6,0.1646991680194802,0.48536897997835443
+"Intel Arc A310 GPU Makes Its US Debut And Is Super Affordable, Should You Buy It? - Hot Hardware",https://hothardware.com/news/intel-arc-a310-gpu-super-affordable-should-you-buy-it,0.29166666666666663,0.7583333333333333,0.014353105523318293,0.4789874428172304
+"Nvidia DLSS 3.5 explained: AI ray reconstruction, supersampling, and more - PCWorld",https://www.pcworld.com/article/2092929/ai-upscaling-nvidia-dlss-3-5-im-detail.html,0.5,0.5,0.15178628389154702,0.4372761449077239
+The 3 Best GPU Alternatives to Nvidia's GeForce RTX 4060 Ti 16GB - MUO - MakeUseOf,https://www.makeuseof.com/the-best-gpu-alternatives-nvidias-geforce-rtx-4060-ti-16gb/,1.0,0.3,0.16961937990784146,0.456196684369761
+Nvidia might have forgotten the venerable GTX 1060 but AMD's new Frame Generation tech proves there's life in the old GPU yet - PC Gamer,https://www.pcgamer.com/nvidia-might-have-forgotten-the-venerable-gtx-1060-but-amds-new-frame-generation-tech-proves-theres-life-in-the-old-gpu-yet/,0.1787878787878788,0.21818181818181817,0.18590124944915362,0.48402973274230754
+This new technology breathes life into old Nvidia GPUs - PCGamesN,https://www.pcgamesn.com/amd/fsr-3-nvidia-geforce-gtx-1060,0.11818181818181818,0.32727272727272727,0.17486968813499426,0.5254848043113348
+"If you have an AMD GPU, stay away from the latest Windows Update - Digital Trends",https://www.digitaltrends.com/computing/windows-11-update-breaks-amd-adrenalin/,0.25,0.45,0.21074021464646464,0.5285669191919192
+Best CPUs for Nvidia GeForce RTX 4090 in 2024 - XDA Developers,https://www.xda-developers.com/best-cpus-nvidia-geforce-rtx-4090/,1.0,0.3,0.32756878147606616,0.5040807444946518
+Enabling AMD FSR 3 Frame Gen Boosts FPS On NVIDIA GeForce 10 GPUs But Not Recommended - Wccftech,https://wccftech.com/enabling-amd-fsr-3-frame-gen-boosts-fps-on-nvidia-geforce-10-gpus-but-not-recommended/,0.0,0.0,0.16393943688586546,0.47630007558578946
+"You've Heard Of Moore's Law For CPUs, Now Check Out NVIDIA's Huang's Law For GPUs - Hot Hardware",https://hothardware.com/news/moores-law-for-cpus-nvidias-huangs-law-for-gpus,0.25,0.8500000000000001,0.1359056574517101,0.464381756158072
+"AMD Radeon RX 7900M “RDNA 3” Enthusiast Mobility GPU Specs Leak: Navi 31 With 72 Compute Units, 16 GB VRAM - Wccftech",https://wccftech.com/amd-radeon-rx-7900m-rdna-3-mobility-gpu-leak-navi-31-72-compute-units-16-gb/,0.0,0.0,0.16068310220852602,0.5165125834617359
+Stable Diffusion XL: Achieving High-Volume AI Image Generation on Consumer GPUs with Salad Cloud - hackernoon.com,https://hackernoon.com/stable-diffusion-xl-achieving-high-volume-ai-image-generation-on-consumer-gpus-with-salad-cloud,0.0,0.0,0.13346899224806197,0.4676854928017718
+"Arm Warns Mali GPUs Are Under Alarming Security Attack, Emergency Patch Issued - Hot Hardware",https://hothardware.com/news/arm-warns-of-mali-gpu-vulnerabilities,0.075,0.7250000000000001,0.17274088341037486,0.4894601951720591
+NexGen Cloud’s $1 Billion AI Supercloud to Turbocharge AI in Europe - GlobeNewswire,https://www.globenewswire.com/news-release/2023/10/04/2754816/0/en/NexGen-Cloud-s-1-Billion-AI-Supercloud-to-Turbocharge-AI-in-Europe.html,0.0,0.0,0.14141404572439056,0.40135152204117763
+Apple's AI Prowess Lies In Its Neural Engine - Forbes,https://www.forbes.com/sites/timbajarin/2023/10/03/apples-ai-prowess-lies-in-its-neural-engine/,0.0,0.0,0.20608946608946607,0.5154393137726468
+The Lowest-Priced AMD 7900 XT Hits $729: Real Deals - Tom's Hardware,https://www.tomshardware.com/news/the-lowest-priced-amd-7900-xt-hits-dollar729-real-deals,0.2,0.30000000000000004,0.18277586880711874,0.5243029146779147
+Govt considering proposal to set up 25K GPUs - IndBiz - Economic Diplomacy Division,https://indbiz.gov.in/govt-considering-proposal-to-set-up-25k-gpus/,0.2,0.2,0.11760855884203904,0.4188294524858403
+"Pixel 8 Pro’s Detailed Hardware Information About The Tensor G3 CPU, GPU, Camera, Storage And More, Revealed In This Massive Leak - Wccftech",https://wccftech.com/pixel-8-pro-detailed-hardware-information-leaked/,0.3,0.75,0.06875676406926402,0.5115614853896107
+You need an Nvidia GPU to get the best performance in Counter-Strike 2 - PCGamesN,https://www.pcgamesn.com/cs2/nvidia-gpu-performance,1.0,0.3,0.2697802197802198,0.5434981684981685
+This Indian Hyperscaler is Making GPUs More Accessible in India - AIM,https://analyticsindiamag.com/ai-features/this-indian-hyperscaler-is-making-gpus-more-accessible-in-india/,0.4375,0.4375,0.006818181818181831,0.41335227272727265
+"Apple iPhone 15 Pro review: Software and connectivity, performance - GSMArena.com",https://www.gsmarena.com/apple_iphone_15_pro-review-2620p4.php,0.0,0.0,0.06824077454682842,0.45463105031490747
+RTX 4050 Gaming Comparison: Find out which laptop is the best - Digit,https://www.digit.in/features/laptops/rtx-4050-gaming-comparison-find-out-which-laptop-is-the-best.html,1.0,0.3,0.14196943929086786,0.5171137394351684
+DirectX 12 Games Are Not Using the GPU? How to Force Them - WindowsReport.com,https://windowsreport.com/directx-12-not-using-gpu/,0.0,0.0,0.07243703266430539,0.48054768463859365
+GPU Not Showing up in Task Manager? Here's What to do - WindowsReport.com,https://windowsreport.com/gpu-not-showing-up-in-task-manager/,0.0,0.0,0.14607539682539683,0.4826468253968252
+AMD and Nvidia GPU in Same PC: Best Tips to use Them - WindowsReport.com,https://windowsreport.com/download-amd-nvidia-drivers-windows-8-1/,0.5,0.2125,0.22560626102292775,0.5194940476190476
+Fix: Destiny 2 Not Using GPU [4 Ways] - WindowsReport.com,https://windowsreport.com/destiny-2-not-using-gpu/,0.0,0.0,0.14661427357689047,0.509516226245198
+Is your GPU Artifacting? Here's how We Fixed Ours - WindowsReport.com,https://windowsreport.com/gpu-artifacting/,0.1,0.2,0.1526362881304742,0.4738106983455819
+High GPU Usage While Playing Fortnite: How to Fix It - WindowsReport.com,https://windowsreport.com/fortnite-high-gpu/,0.16,0.5399999999999999,0.15104247015610656,0.4910667716122259
+Star Citizen Not Using GPU/Low GPU Usage: 5 Simple Ways - WindowsReport.com,https://windowsreport.com/star-citizen-not-using-gpu/,0.0,0.35714285714285715,0.09842147894034686,0.5008904774470808
+"How to Safely Underclock Your GPU [Nvidia, AMD] - WindowsReport.com",https://windowsreport.com/how-to-underclock-gpu/,0.5,0.5,0.09914614289614292,0.4065444502944503
+Overwatch is Not Using my GPU: How to Fix It in 5 Steps - WindowsReport.com,https://windowsreport.com/overwatch-not-using-gpu/,0.0,0.0,0.09814444444444445,0.48384232804232796
+5 Ways to Fix Your GPU when Fans Spin Then Stop Repeatedly - WindowsReport.com,https://windowsreport.com/gpu-fans-spin-then-stop/,0.0,0.0,0.12383113962061332,0.5267742783532255
+Illustrator Is Not Using Your GPU? You Can Fix It in 4 Steps - WindowsReport.com,https://windowsreport.com/illustrator-not-using-gpu/,0.0,0.0,0.18978661069570163,0.5235086798723161
+Fix: World of Warcraft Not Using GPU / Low GPU Usage [5 Ways] - WindowsReport.com,https://windowsreport.com/wow-not-using-gpu/,0.0,0.3,0.10080400782013683,0.5496827142391656
+Xbox One Graphics Card: How Does It Compare to a PC GPU? - WindowsReport.com,https://windowsreport.com/what-graphics-card-is-in-the-xbox-one/,0.0,0.0,0.22101761252446187,0.5442106979778212
+Wallpaper Engine High GPU Usage: How to Stop it in 5 Steps - WindowsReport.com,https://windowsreport.com/wallpaper-engine-high-gpu-usage/,0.16,0.5399999999999999,0.1263729246487867,0.46720945083014026
+Fix GTA V Not Using GPU on PC [Low Usage] - WindowsReport.com,https://windowsreport.com/gta-5-not-using-gpu/,0.0,0.3,0.07132997706658421,0.47690089672232505
+New AMD GPU update causes crashes for Counter-Strike 2 players - Dexerto,https://www.dexerto.com/tech/new-amd-gpu-update-causes-crashes-for-counter-strike-2-players-2320472/,0.13636363636363635,0.45454545454545453,0.04446888237210817,0.4382535027696319
+High GPU usage when watching YouTube videos? There's a fix - WindowsReport.com,https://windowsreport.com/youtube-high-gpu-usage/,0.16,0.5399999999999999,0.12970494417862838,0.4793819776714514
+How to Safely Power Limit Your GPU in MSI Afterburner - WindowsReport.com,https://windowsreport.com/msi-afterburner-power-limit/,0.5,0.5,0.2620297619047619,0.5802585978835978
+5 Ways to Fix ROG Gaming Center if It's Not Showing CPU or GPU - WindowsReport.com,https://windowsreport.com/rog-gaming-center-not-showing-cpu-and-gpu/,-0.1,0.1,0.13353891859774214,0.42635412953060015
+Fix: Photoshop Not Using GPU on Windows 10 & 11 [ 5 Ways] - WindowsReport.com,https://windowsreport.com/photoshop-not-using-gpu/,0.0,0.0,0.12233427215354932,0.5423391401102243
+Black Screen When/After Installing Graphics Card Driver [Fix] - WindowsReport.com,https://windowsreport.com/black-screen-installing-graphics-card-driver/,-0.16666666666666666,0.43333333333333335,0.10026980489165366,0.4586380006548069
+How to Check GPU Temp on Windows 11 - WindowsReport.com,https://windowsreport.com/windows-11-gpu-temperature/,0.0,0.0,0.15998105372151172,0.5045505215734223
+How to Undervolt a GPU & Why You Should Do It - WindowsReport.com,https://windowsreport.com/undervolt-gpu/,0.0,0.0,0.19649089416330798,0.5166985744140916
+5 Best GPUs For Video And Photo Editing - WindowsReport.com,https://windowsreport.com/best-gpu-video-editing/,1.0,0.3,0.3493108306787552,0.44970187045658727
+Fix: Graphics Card Shows As Microsoft Basic Display Adapter - WindowsReport.com,https://windowsreport.com/graphics-card-shows-as-microsoft-basic-display-adapter/,0.0,0.125,0.14863152198678517,0.4276313890787574
+Disable Windows 11's driver update to avoid downgrading your GPU - WindowsReport.com,https://windowsreport.com/windows-11-gpu-driver-downgrade/,0.0,0.0,0.16751615963944733,0.5149755875783272
+Best GPU Support Bracket [Out of 5 most popular right now] - WindowsReport.com,https://windowsreport.com/best-gpu-support-bracket/,0.5964285714285714,0.5589285714285714,0.3691464891041163,0.46373284907183165
+5 Best Free GPU Comparison Tools [GPU Benchmark] - WindowsReport.com,https://windowsreport.com/gpu-comparison-tool/,0.7,0.55,0.3282989718614717,0.5265400432900431
+AMD Radeon RX 7700 XT Review - Hardware Times,https://hardwaretimes.com/amd-radeon-rx-7700-xt-review/,0.0,0.0,0.08936896436896435,0.4805094905094904
+"6 Quick Fixes for Nvidia Container High Disk, GPU, CPU Usage - WindowsReport.com",https://windowsreport.com/nvdisplay-container-exe-high-cpu-usage/,0.24666666666666665,0.52,0.1547566137566138,0.5168174603174602
+FIX: Windows 10/11 driver stopped responding and has recovered - WindowsReport.com,https://windowsreport.com/driver-stopped-responding-recovered-windows-10/,0.0,0.0,0.11260642135642139,0.5032686310105665
+FIX: Video driver not supported in Premiere Pro - WindowsReport.com,https://windowsreport.com/video-driver-not-supported-premiere-pro/,0.0,0.0,0.17590593434343435,0.5426461038961037
+5 Best laptops with dedicated graphics card - WindowsReport.com,https://windowsreport.com/laptop-dedicated-graphics-card/,1.0,0.3,0.3318877817584714,0.5024823978703286
+How to Enable Automatic Tuning for Nvidia GPUs - WindowsReport.com,https://windowsreport.com/enable-automatic-tuning-nvidia/,0.0,0.0,0.15415444770283482,0.5059436531210724
+How to Increase VRAM in Windows 10: Most Useful & Easy Tips - WindowsReport.com,https://windowsreport.com/increase-dedicated-video-ram-windows-10/,0.41111111111111115,0.4444444444444445,0.18988352916924356,0.4636745001030715
+Guide: Optimize Wolfenstein 2: The New Colossus for the best experience - WindowsReport.com,https://windowsreport.com/wolfenstein-2-optimize/,0.5681818181818181,0.37727272727272726,0.12300619834710741,0.5030058703922337
+Fix: Colors Change While Gaming on Windows 11 - WindowsReport.com,https://windowsreport.com/colors-changing-when-gaming/,0.0,0.0,0.1758756822887258,0.49415082502039026
+How to Lower High CPU Temperature in Windows 10 & 11? - WindowsReport.com,https://windowsreport.com/high-cpu-temperature-windows-10/,0.16,0.5399999999999999,0.11173306299888582,0.47242679964198947
+3 Ways to Remove PhysX CPU from the Screen in All of Your Games - WindowsReport.com,https://windowsreport.com/physx-cpu-on-screen/,0.0,0.0,0.095622071991935,0.4503068848959258
+OpenJDK Platform Binary: How to Fix its High CPU Usage - WindowsReport.com,https://windowsreport.com/openjdk-platform-binary-using-100-cpu/,0.16,0.5399999999999999,0.16841321377035662,0.517103947639662
+Best Windows Settings for Maximum Crypto Mining Performance - WindowsReport.com,https://windowsreport.com/best-windows-settings-for-mining/,1.0,0.3,0.2594273627606961,0.5242176958843623
+Low FPS After CPU Upgrade? Here's How You Can Quickly Fix It - WindowsReport.com,https://windowsreport.com/low-fps-after-cpu-upgrade/,0.16666666666666666,0.4,0.10745141043813612,0.4799920826469498
+FIX: Brown Screen of Death on Windows 10/11 - WindowsReport.com,https://windowsreport.com/brown-screen-of-death-pc/,0.0,0.0,0.13977937964176493,0.4392766127857871
+FIX: Among Us keeps crashing & freezing on PC? - WindowsReport.com,https://windowsreport.com/among-us-keeps-crashing-freezing-pc/,0.0,0.0,0.030241596638655464,0.4199393090569561
+FIX: Can't download Nvidia Control Panel - WindowsReport.com,https://windowsreport.com/cant-download-nvidia-control-panel/,0.0,0.0,0.10410685805422651,0.45533530796688676
+Fix Forza Horizon 3 errors - WindowsReport.com,https://windowsreport.com/fix-forza-horizon-3-errors/,0.0,0.0,0.08752803851813752,0.44193955109796645
+FIX: Adaptive Brightness won’t turn off in Windows 10/11 - WindowsReport.com,https://windowsreport.com/adaptive-brightness-windows-10-wont-turn-off/,0.0,0.0,0.1006424426637193,0.48357971815418593
+Black Screen in Warcraft 3: How to Fix It in Windows 10 - WindowsReport.com,https://windowsreport.com/warcraft-3-black-screen-windows-10/,-0.16666666666666666,0.43333333333333335,0.008589826839826861,0.46972005772005765
