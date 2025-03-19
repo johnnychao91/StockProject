@@ -44,7 +44,7 @@ output_dir = f"./data/google_news_sentiment/{category}/"
 os.makedirs(output_dir, exist_ok=True)  # 確保輸出資料夾存在
 
 # 設定開始 & 結束日期
-start_date = datetime(2024, 1, 1)
+start_date = datetime(2023, 1, 1)
 end_date = datetime.today()
 
 # 設定 requests session
