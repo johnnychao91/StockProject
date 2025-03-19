@@ -23,6 +23,7 @@ options.add_argument("--enable-gpu")
 options.add_argument("--log-level=0")
 options.add_argument("--window-size=1280,720")
 options.add_argument("--ignore-certificate-errors")
+options.add_argument("--disable-notifications")  # 直接關閉通知請求
 options.add_argument("--disable-usb")
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 #options.page_load_strategy = "eager"
@@ -87,9 +88,9 @@ def get_source_url(rss_url):
             print("超時！未能從 Google News 跳轉到真實新聞網址")
             return None
         """
-        print("time.sleep(2)開始")
-        time.sleep(2)
-        print("time.sleep(2)完成")
+        #print("time.sleep(1)開始")
+        #time.sleep(1)
+        #print("time.sleep(1)完成")
         
         wait_for_page_load(driver)
         
