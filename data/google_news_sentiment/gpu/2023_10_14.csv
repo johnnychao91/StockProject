@@ -1,0 +1,12 @@
+﻿標題,真實新聞連結,標題_情感極性,標題_主觀性,全文_情感極性,全文_主觀性
+Insect Breaks RTX 4090 Founders Edition GPU - Tom's Hardware,https://www.tomshardware.com/news/bug-impedes-rtx-4090-founders-edition-gpu-from-working,0.0,0.0,0.14819920516641827,0.49187661154874257
+Your next GPU upgrade might remain a dream thanks to the AI wave - XDA Developers,https://www.xda-developers.com/ai-wave-will-kill-your-gpu-upgrade-dream/,0.1,0.1,0.11023822941405363,0.4637011294566238
+Why AMD’s biggest competitor is no longer Nvidia - Digital Trends,https://www.digitaltrends.com/computing/amds-biggest-competitor-is-not-nvidia/,0.0,0.0,0.14004600172385406,0.43230027988417236
+Mesa Merges Initial OpenGL/Vulkan Support For Raspberry Pi 5's GPU - Phoronix,https://www.phoronix.com/news/Mesa-RPi-5-VideoCore-7.1.x,0.0,0.0,0.13528138528138525,0.5390749601275917
+AMD's Fluid Motion Frames tech now works in any DX11 and DX12 game with any RX 7000 and RX 6000-series graphics card - PC Gamer,https://www.pcgamer.com/amds-fluid-motion-frames-tech-now-works-in-any-dx11-and-dx12-game-with-any-rx-7000-and-rx-6000-series-graphics-card/,-0.2,0.25,0.17441775181971259,0.5099875215561489
+"NVIDIA Blackwell B100 GPUs To Feature SK Hynix HBM3e Memory, Launches In Q2 2024 Due To Rise In AI Demand - Wccftech",https://wccftech.com/nvidia-blackwell-b100-gpus-sk-hynix-hbm3e-memory-launches-q2-2024-rise-in-ai/,-0.125,0.375,0.107929292929293,0.45897824397824377
+"To beat Nvidia, AMD bets on open source acquisition and a strategy reminiscent of Linux vs Microsoft era - TechRadar",https://www.techradar.com/pro/to-beat-nvidia-amd-bets-on-open-source-acquisition-and-a-strategy-reminiscent-of-linux-vs-microsoft-era,0.0,0.5,0.23020794681508977,0.5401383735312307
+AMD Releases ROCm 5.7.1 With rocBLAS-GEMM-Tune & Bug Fixes - Phoronix,https://www.phoronix.com/news/AMD-ROCm-5.7.1,0.0,0.0,0.10915071770334925,0.4305023923444976
+Aging NVIDIA GeForce RTX 3080 & A6000 GPUs Show Rare Symptoms of Vapor Chamber Cracks - Wccftech,https://wccftech.com/aging-nvidia-geforce-rtx-3080-a6000-gpus-show-rare-symptoms-vapor-chamber-cracks/,0.3,0.9,0.10433219132605644,0.48823652829787767
+Intel Vulkan Driver Lands ASTC LDR Emulation For Latest GPUs - Phoronix,https://www.phoronix.com/news/Intel-ANV-ASTC-LDR-Emulation,0.5,0.9,0.1875,0.4260416666666667
+AMD’s RDNA 3 GPU on the Samsung Exynos 2400 Loses to the Snapdragon 8 Gen 3 - Hardware Times,https://hardwaretimes.com/amds-rdna-3-gpu-on-the-samsung-exynos-2400-loses-to-the-snapdragon-8-gen-3/,-0.3,0.1,0.1875,0.46333333333333326
