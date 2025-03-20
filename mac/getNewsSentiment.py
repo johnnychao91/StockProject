@@ -37,7 +37,8 @@ driver.set_page_load_timeout(10)
 #category = "nvidia"
 #category = "nasdaq"
 #category = "gpu"
-category = "trump"
+#category = "trump"
+category = "tsmc"
 
 
 # 設定新聞資料夾 & 儲存資料夾
