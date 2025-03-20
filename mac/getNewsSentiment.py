@@ -36,7 +36,9 @@ driver.set_page_load_timeout(10)
 # 設定新聞類別
 #category = "nvidia"
 #category = "nasdaq"
-category = "gpu"
+#category = "gpu"
+category = "trump"
+
 
 # 設定新聞資料夾 & 儲存資料夾
 news_dir = f"./data/google_news/{category}/"
