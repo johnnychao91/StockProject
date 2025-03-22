@@ -3,8 +3,9 @@ import requests
 import json
 import os
 from datetime import datetime, timedelta
-
-stock_no = '0050'
+\
+#stock_no = '0050'
+stock_no = '2330'
 
 # 設定開始與結束日期
 today_str = datetime.today().strftime('%Y%m%d')
